@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "<ticarpi>"
+title                    : "ticarpi"
 title_separator          : "||"
 name                     : "ticarpi"
 description              : "Hacking, pentesting, research and code..."

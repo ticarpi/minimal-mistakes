@@ -9,7 +9,7 @@
 locale                   : "en"
 title                    : "ticarpi"
 title_separator          : "||"
-name                     : "ticarpi"
+name                     : "<ticarpi>"
 description              : "Hacking, pentesting, research and code..."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"

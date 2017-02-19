@@ -8,7 +8,7 @@
 # Site Settings
 locale                   : "en"
 title                    : "ticarpi"
-title_separator          : "||"
+title_separator          : "]["
 name                     : "ticarpi"
 description              : "Hacking, pentesting, research and code..."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -72,18 +72,18 @@ social:
 analytics:
   provider               : false # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-77423162-1"
 
 
 # Site Author
 author:
-  name             : "<ticarpi>"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Hack hack hack. Hacky-hack."
-  location         : "interwebs"
+  name             : "ticarpi"
+  avatar           : "/assets/images/ticarpi.jpg"
+  bio              : "adventures in infosec, code, and hacking"
+  location         : "in the UK interwebs"
   email            :
   uri              :
-  bitbucket        :
+  bitbucket        : "ticarpi"
   codepen          :
   dribbble         :
   flickr           :
@@ -91,10 +91,10 @@ author:
   foursquare       :
   github           : "ticarpi"
   google_plus      :
-  keybase          :
+  keybase          : "ticarpi"
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "andy-tyler-b699aa102"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
@@ -244,3 +244,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true

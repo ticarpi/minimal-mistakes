@@ -22,7 +22,7 @@ I suppose the scenario could be blackhat - a hacker with a limited-level exploit
 
 *Disclaimer: If you're copying any client files ALWAYS do so securely. This hacky thoughtexp is just a game for keeping the mind supple.*
 
-######The thinking:######
+## The thinking:  
 OK, so what do we have?  
 [+] Basic tools. Commandline stuff  
 [+] Ingenuity (it's pep talk time)
@@ -46,7 +46,7 @@ Right, let's reverse it then!
 
 The *rev* tool will reverse all text on a line:
 
-```language-bash   
+```bash   
 $ echo "Hello World." | rev
 .dlroW olleH
 ```
@@ -54,7 +54,7 @@ $ echo "Hello World." | rev
 That's grand, that is.
 Oh, hang on - multiple-line text files still are in line-order:
 
-```language-bash
+```bash
 $ cat multi.txt | rev
 1# enil si sihT
 2# enil si sihT
@@ -62,7 +62,7 @@ $ cat multi.txt | rev
 OK, well did you know about *tac*?
 Yep, that's *cat* backwards...
 
-```language-bash
+```bash
 $ tac multi.txt | rev
 2# enil si sihT
 1# enil si sihT
@@ -73,7 +73,7 @@ OK, so that's going to be pretty obfuscated.
 I'm going to reverse the text, then reverse the base64 string too (*and why not??*).
 Let's grab some *sed* and then see how that looks as a one-liner:
 
-```language-bash
+```bash
 $ tac exfilme.txt | rev | base64 -w 0 | rev | sed 's/=//g'
 oASlJXZgk2cgEGIzRnclFWbg8mZgQWY0FmLgkEdgoyYvVHbkpCIiVGIj9mbmlGZl5GdpFGbuoQS0BSaz52J05CIUhWazBSazBia1NHdgEGI0V2c05iCIVmclBSazBSYuBCcpNGd1JXZ6oAZo42XuliY
 ```
@@ -81,7 +81,7 @@ oASlJXZgk2cgEGIzRnclFWbg8mZgQWY0FmLgkEdgoyYvVHbkpCIiVGIj9mbmlGZl5GdpFGbuoQS0BSaz
 Right, that's pretty cool.
 Recognising the string as possible base64 isn't going to do you any good. So even if you pad it out the string is just junk now:
 
-```language-bash
+```bash
 $ echo oASlJXZgk2cgEGIzRnclFWbg8mZgQWY0FmLgkEdgoyYvVHbkpCIiVGIj9mbmlGZl5GdpFGbuoQS0BSaz52J05CIUhWazBSazBia1NHdgEGI0V2c05iCIVmclBSazBSYuBCcpNGd1JXZ6oAZo42XuliY= | base64 -d
 ��%v�g b3Fw%f��fAf4b�G�&/Tv�--Tb%�f�fe�g&��bt��f&�&�4wb4Wg4� �V&�&.)4gu%vz�h�e
 ```
@@ -91,7 +91,7 @@ Let's just hide the string a bit more by putting some padding at the beginning. 
 (Hacked-together way of grabbing only ASCII values from the random-char generator FTW!)
 
 So, the final code goes like this:
-```language-bash
+```bash
 $ cat /dev/urandom | tr -dc 'a-zA-Z0-9' | head -c 4 && echo $(tac exfilme.txt | rev | base64 -w 0 | rev | sed 's/=//g')
 ```
 So when you receive the string you can strip off the known quantity from the *head* portion of the command above - 4 here, but could be anything. Then you can reverse the whole thing and you're all good to go.

@@ -3,13 +3,13 @@ main:
   - title: "Blog"
     url: /
   - title: "Code + Projects"
-    url: /code-projects/
+    url: /code-projects
   - title: "My Writings"
-    url: /my-writings/
+    url: /my-writings
   - title: "Vuln Research"
-    url: /vuln-research/
+    url: /vuln-research
   - title: "Contact"
-    url: /contact/
+    url: /contact
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"

@@ -10,7 +10,7 @@ header:
   image: /assets/images/burp_jwt_pre.jpg
 ---
 
-So, having introduced my JWT auditing tool in the [last post](https://www.ticarpi.com/introducing-jwt-tool/) I thought it would be good to provide a quick run-down of the various attack methods you should try as a pentester when faced with JWT auth on an engagement.  
+So, having introduced my JWT auditing tool([https://github.com/ticarpi/jwt_tool](https://github.com/ticarpi/jwt_tool)) in the [last post](https://www.ticarpi.com/introducing-jwt-tool/) I thought it would be good to provide a quick run-down of the various attack methods you should try as a pentester when faced with JWT auth on an engagement.  
 
 ## Token Generation
 As with any web app pentest you should check the authentication process in place - as an injection here or bit of parameter tampering there could get you a privileged account without the need to mess with the tokens.  

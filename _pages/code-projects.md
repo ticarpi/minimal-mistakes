@@ -8,5 +8,5 @@ This space is for my code:
 ## Malware Analysis:
 
 ### pup\_cipher.py  
-[https://bitbucket.org/ticarpi/pup_cipher/src](https://bitbucket.org/ticarpi/pup_cipher/src)  
+[https://github.com/ticarpi/pup_cipher](https://github.com/ticarpi/pup_cipher)  
 A decryption tool for a cipher found in some malware and PUPs (Potentially Unwanted Programs).

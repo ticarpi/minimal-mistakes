@@ -113,7 +113,6 @@
   @include clearfix;
   animation: intro 0.3s both;
   animation-delay: 0.25s;
-  height: 300px;
   overflow: hidden;
 
   &--overlay {
@@ -163,9 +162,8 @@
 }
 
 .page__hero-image {
-  width: auto;
+  width: 100%;
   height: auto;
-  margin-top: -100px;
   -ms-interpolation-mode: bicubic;
 }
 

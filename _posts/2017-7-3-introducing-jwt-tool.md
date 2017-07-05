@@ -8,6 +8,7 @@ tags:
   - "security"
 header:
   image: /assets/images/jwt_tool.jpg
+  teaser: /assets/images/500x300.png
 ---
 
 >This post is to introduce you to a python project I've just published, having found a void and deciding to be the one to fill it...

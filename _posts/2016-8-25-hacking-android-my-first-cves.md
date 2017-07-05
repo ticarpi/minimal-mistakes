@@ -22,7 +22,7 @@ Just a month into my new career in infosec I was messing around with Android and
 In my experience this is what I do best - thinking outside the box; imagining scenarios that break the pattern, that do something unexpected.
 
 
-#####Testing some stuff
+##### Testing some stuff
 Ever since Guest Mode was announced in Android 5.0 (Lollipop) - back in late 2014 - I had been curious about how allowing someone physical access to a device could be a *good idea*.
 It is generally considered in security circles that:  
 >physical access == device pwned  
@@ -52,7 +52,7 @@ Once launched for the first time by the owner, Guest Mode persists on the Androi
 
 >I had found a way for setting up invisible remote monitoring of all device traffic from a locked Android device!
 
-####More fun?
+#### More fun?
 After getting myself a little bit excited about the implications of this, I tested out some more settings - most were innocuous.  
 However, I did managed to find one more that could do some damage - Bluetooth.
 
@@ -65,7 +65,7 @@ This attack involves sending a fast burst of programmed keystrokes from a virtua
 
 In addition we could pre-authorise a Bluetooth headset to listen to calls, using this to intercept 2-Factor authorisations and the like.
 
-#####Reporting and Bug Bounties
+##### Reporting and Bug Bounties
 With two exploits in the bag I reported these via Google's Android [Security bug report tracker](https://code.google.com/p/android/issues/entry?template=Security%20bug%20report) and waited for a response.
 
 Within a day or two I had confirmations of receipt; with further acknowledgements of eligibility for a bug bounty, as well as updates on bug fixing progress over the following weeks. The issues are now both fixed in Android, and third party vendors are pushing these fixes out to their devices *in their own sweet time...*

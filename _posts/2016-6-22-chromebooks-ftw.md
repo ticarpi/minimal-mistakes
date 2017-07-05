@@ -10,6 +10,7 @@ tags:
   - "security" 
 header:
   image: /assets/images/coding_on_chrome.png
+  teaser: /assets/images/500x300.png
 ---
 
 I've been playing with Chromebooks for a while now.

@@ -8,7 +8,7 @@ tags:
   - "security"
 header:
   image: /assets/images/burp_jwt_pre.jpg
-  teaser: /assets/images/500x300/png
+  teaser: /assets/images/500x300.png
 ---
 
 So, having introduced my JWT auditing tool ([https://github.com/ticarpi/jwt_tool](https://github.com/ticarpi/jwt_tool)) in the [last post](https://www.ticarpi.com/introducing-jwt-tool/) I thought it would be good to provide a quick run-down of the various attack methods you should try as a pentester when faced with JWT auth on an engagement.  

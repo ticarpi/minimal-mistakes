@@ -6,6 +6,7 @@ tags:
   - "thought-experiment"
 header:
   image: /assets/images/usr_bin2.png
+  teaser: /assets/images/500x300.png
 ---
 
 I hope you're ready for this!

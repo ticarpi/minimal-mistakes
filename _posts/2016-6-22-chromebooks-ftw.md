@@ -23,7 +23,7 @@ So I just had to try them.
 
 And I love it. I really do. And for a bunch of reasons.
 
-#####Firstly, I use mine for malware analysis:  
+##### Firstly, I use mine for malware analysis:  
 One of the great things about Chromebooks is that the operating system is seriously secure.
 
 The OS is updated automatically; it checks itself for corruption/infection every time it boots; it encrypts the user partitions; and it allows anonymous logon via Guest mode.
@@ -33,14 +33,14 @@ So, by using Guest mode I use my Chromebook for visiting potentially infected we
 And once I've done all that I just reboot into my normal account and all is well. Whoop
 
 
-#####Secondly, I use it for coding  
+##### Secondly, I use it for coding  
 I have found a marvellous use for my latest Chromebook - an Acer R11 (a convertible, flippy, touchscreen thing).
 >I had to get another one - my wife keeps on borrowing my C720
 
 You see, some epic fellows have found that by switching a Chromebook to Developer mode you can install a chroot (fancy name for running multiple Linux-based operating systems at the same time.
 So... I have installed a command-line version of Ubuntu via [crouton](https://github.com/dnschneid/crouton), which I run from the Chrome terminal (crosh), while editing code on useful Chrome apps (like [the Text app](https://chrome.google.com/webstore/detail/text/mmfbcljfglbokpmkimbfghdkjmjhdgbg)) and using git for version control and sharing.
 
-#####Thirdly, Android apps are coming!!  
+##### Thirdly, Android apps are coming!!  
 Yep, Android apps (and [the whole Google Play Store](https://chrome.googleblog.com/2016/05/the-google-play-store-coming-to.html)) are coming to Chromebooks by the end of this year - or thereabouts.
 My R11 should be getting the update any day now, and the reports for those already testing the update are largely very favourable.
 

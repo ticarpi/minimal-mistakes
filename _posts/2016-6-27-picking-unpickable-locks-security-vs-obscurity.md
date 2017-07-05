@@ -8,6 +8,7 @@ tags:
   - "apps"
 header:
   image: /assets/images/discdetainer.jpg
+  teaser: /assets/images/500x300.png
 ---
 
 This morning a parcel arrived: a padlock I'd ordered from Amazon to practice lockpicking with.

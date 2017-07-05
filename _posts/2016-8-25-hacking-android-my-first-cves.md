@@ -10,6 +10,7 @@ tags:
   - "bug-bounty"
 header:
   image: /assets/images/wifiproxying.png
+  teaser: /assets/images/500x300.png
 ---
 
 *This blog post is a central point for the reports and blogs about the Android Guest Mode vulnerabilities I reported to Google in February 2016 - CVE-2016-2457 and CVE-2016-3760  

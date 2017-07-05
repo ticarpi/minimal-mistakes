@@ -6,6 +6,7 @@ tags:
   - "stories"
 header:
   image: /assets/images/my_coins.jpg
+  teaser: /assets/images/500x300.png
 ---
 
 What better way to start this new blog than to set the scene with how I found myself here in this cybersecurity industry.

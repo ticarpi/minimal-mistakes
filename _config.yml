@@ -244,6 +244,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      teaser: /assets/images/500x300.png
   # _pages
   - scope:
       path: ""

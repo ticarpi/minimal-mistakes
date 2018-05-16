@@ -3,6 +3,12 @@ title: "Vuln Research"
 permalink: /vuln-research
 ---
 
+
+## CVE Disclosures
+* [CVE-2017-0846 - Android Clipboard exposure on locked devices](https://www.ticarpi.com/disclosures/cve_2017-0846_android_clipboard_exposure.txt)
+
+
+---
 ## OS:
 
 ### Android OS:
